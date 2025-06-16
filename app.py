@@ -21,7 +21,7 @@ def host_info():
             interface_info[iface] = 'Error'
 
     return jsonify({
-        "project": "Deploy in EKS by Ansible"
+        "project": "Deploy in EKS by Ansible",
         "hostname": hostname,
         "local_ip": local_ip,
         "interfaces": interface_info
